@@ -1,0 +1,272 @@
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* import css variables from _variables.css file */
+@import url(./partials/_variables.css);
+
+/* import global styling from _global.css file */
+@import url(./partials/_global.css);
+
+
+
+/* =========== START Navigation =========== */
+
+.headerArea .mainMenu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.headerArea .mainMenu .navbar{
+    padding: 2rem 5rem;
+}
+
+.headerArea .mainMenu .nav-item .nav-link{
+    font-family: var(--playfairDisplay);
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 0.5rem;
+    color: var(--titleColor);
+}
+
+.headerArea .mainMenu .navbar-nav .active a{
+    background: var(--gradientColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.headerArea .mainMenu .navbar-nav a:hover{
+    background: var(--gradientColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ============ END Navigation ============ */
+
+
+
+/* =========== START Banner Area =========== */
+
+.mainSite .siteBanner .siteTitle{
+    padding: 25px 25px 75px 175px;
+}
+
+.mainSite .siteBanner .siteTitle h3{
+    padding-top: 15%;
+    font-weight: 500;
+}
+
+.mainSite .siteBanner .siteTitle h1{
+    font-size: 5rem;
+}
+
+.mainSite .siteBanner .siteTitle h5{
+    font-size: 1.5rem;
+}
+
+.mainSite .siteBanner .profileImage > img{
+    padding: 6rem 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.titleText{
+    font: normal bold 50px/ 75px var(--playfairDisplay);
+}
+
+/* ============ END Banner Area ============ */
+
+
+
+/* ============ START About Me ============ */
+
+.mainSite .aboutMe{
+    padding: 8rem 5rem;
+}
+
+.mainSite .aboutMe .aboutTitle h2 > span{
+    display: block;
+    font: normal bold 50px/ 75px var(--playfairDisplay);
+}
+
+.mainSite .aboutMe .aboutTitle h1 > span{
+    display: block;
+    font: normal bold 30px var(--playfairDisplay);
+    margin-bottom: 30px;
+}
+
+.mainSite .aboutMe .aboutImage > img{
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+/* ============ END About Me ============ */
+
+
+/* ============ START Brand Area ============ */
+.mainSite .cardArea{
+    padding: 7rem 2rem;
+}
+
+.mainSite .cardArea .cardsTitle{
+    padding: 0 14rem;
+}
+
+.mainSite .cardArea .cardsTitle h1{
+    font-family: var(--playfairDisplay);
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.mainSite .cardArea .cardsTitle p{
+    font-family: var(--playfairDisplay);
+    font-size: 18px;
+}
+
+.mainSite .cardArea .cardBody h5{
+    font-family: var(--playfairDisplay);
+    font-weight: bolder;
+}
+
+.mainSite .cardArea .cardBody p{
+    font-family: var(--playfairDisplay);
+    font-weight: lighter;
+}
+
+.mainSite .cardArea .cards{
+    background:rgb(255,250,240);
+    padding: 2rem 2rem;
+    width: 16rem;
+    margin: 5rem .5rem;
+}
+
+.mainSite .cardArea .cards:hover{
+    background: var(--gradientColor);
+}
+
+.mainSite .cardArea .cardsImg > img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* ============== END Brand Area ============== */
+
+
+/* ============== START Projects ============== */
+
+.mainSite .projectArea{
+    padding: 2rem 0;
+}
+
+.mainSite .projectArea .buttonGroup button{
+    border: none;
+    font: normal 300 16px/ 60px var(--playfairDisplay);
+    text-transform: uppercase;
+    background: transparent;
+    padding: .8rem 1.2rem;
+    margin: 1rem .8rem;
+}
+
+.mainSite .projectArea .buttonGroup button:hover{
+    background: rgb(255,250,240);
+}
+
+.mainSite .projectArea .buttonGroup button + button{
+    padding-left: 3rem;
+}
+
+.mainSite .projectArea .projectTitle h1{
+    font-family: var(--playfairDisplay);
+    font-size: 60px;
+    font-weight: bolder;
+}
+.mainSite .projectArea .grid .ourProject > .title h4{
+    font: normal 700 25px/12px var(--playfairDisplay);
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.mainSite .projectArea .row img {
+    height: auto;
+    max-width: 100%;
+    align-items: center;
+}
+
+/* ============== END Projects ============== */
+
+
+/* ============== START Info Area ============== */
+
+.mainSite .infoArea .info{
+    background: url(../img/bg.jpg);
+    padding: 8rem 10rem;
+    margin: auto;
+}
+
+.mainSite .infoArea .info .infoTitle h4{
+    font: normal 700 30px/ 30px var(--playfairDisplay);
+    color: white;
+}
+
+.mainSite .infoArea .info .infoTitle p{
+    color: white;
+    font: normal 100 20px/ 30px var(--playfairDisplay);
+}
+
+.mainSite .infoArea .info form .inputTextbox input{
+    width: 300px;
+    padding: 1rem 1rem;
+    border: 1px solid white;
+    margin: 20px 250px;
+    background: transparent;
+    color: white;
+    font: normal 200 15px/ 20px var(--playfairDisplay)
+}
+
+.mainSite .infoArea .info form .inputTextbox input::placeholder{
+    color: white;
+}
+
+.mainSite .infoArea .info form .btn-submit button{
+    background: white;
+    color: black;
+    height: 50px;
+    margin: 0px 375px;
+}
+
+/* ============== END Info Area ============== */
+
+/* ============== START Footer Area ============== */
+
+.footerArea{
+    padding: 5rem 0;
+}
+
+.footerArea .socialMedia h5{
+    font: normal 500 23px/ 30px var(--playfairDisplay);
+    color: black;
+}
+
+.footerArea .socialMedia a > i{
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--borderColor);
+}
+
+.footerArea .socialMedia a:hover > i{
+    color: var(--primaryColor);
+}
+
+/* ============== END Footer Area ============== */
